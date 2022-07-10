@@ -1,93 +1,35 @@
-
 {
-  "rotavation": {
-      "-N5DBLI1c8e_g4YCZ7G0": {
-        "Amount": 22500,
-        "acres": [
-          {
-            "amount": 22500,
-            "total": 5,
-            "tpayment": 4500
-          }
-        ],
-        "balance": "MWARICHO",
-        "charges": 0,
-        "consume": 0,
-        "date": "2022-06-22",
-        "driver": 900,
-        "extra": 131.98,
-        "famount": 0,
-        "greaser": 430,
-        "id": "-N5DBLI1c8e_g4YCZ7G0",
-        "lubricants": 303.35,
-        "name": "KIMANI",
-        "payment": "MRGM",
-        "rembal": 0,
-        "spare": 0,
-        "storage": "ROTAVATION",
-        "supervisor": 280,
-        "tacres": 5,
-        "totalinstallments": "tebere",
-        "type": "FARMKING",
-        "vno": "KTCC385C"
-      },
-      "-N5DDJSxhqt1ppveZW4T": {
-        "Amount": 22500,
-        "acres": [
-          {
-            "amount": 22500,
-            "total": 5,
-            "tpayment": 4500
-          }
-        ],
-        "balance": "MWARICHO",
-        "charges": 0,
-        "date": "2022-06-21",
-        "driver": 900,
-        "extra": 131.98,
-        "famount": 0,
-        "greaser": 430,
-        "id": "-N5DDJSxhqt1ppveZW4T",
-        "lubricants": 303.35,
-        "payment": "MRGM",
-        "rembal": 0,
-        "spare": 0,
-        "storage": "ROTAVATION",
-        "supervisor": 275,
-        "tacres": 5,
-        "totalinstallments": "k8",
-        "vno": "KTCC385C"
-      },
-      "-N5DKTwStpgWLEHdGe8j": {
-        "Amount": 18000,
-        "acres": [
-          {
-            "amount": 18000,
-            "total": 4,
-            "tpayment": 4500
-          }
-        ],
-        "balance": "MWARICHO",
-        "charges": 0,
-        "consume": 0,
-        "date": "2022-06-22",
-        "driver": 750,
-        "extra": 131.98,
-        "famount": 0,
-        "greaser": 430,
-        "id": "-N5DKTwStpgWLEHdGe8j",
-        "lubricants": 303.35,
-        "name": "BENSON",
-        "payment": "MRGM",
-        "rembal": 0,
-        "spare": 0,
-        "storage": "ROTAVATION",
-        "supervisor": 280,
-        "tacres": 4,
-        "totalinstallments": "k8",
-        "type": "SHAKTMAN",
-        "vno": "GKB453H"
+  "Post": {
+    "cover": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
       }
     },
-  
+    "body": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "tag": {
+      "string": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
+    "isDraft": {
+      "boolean": {}
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
+  }
 }
